@@ -1,0 +1,312 @@
+[
+  {
+    "model": "DesertX",
+    "product": "DesertX Rally",
+    "price": "23,70,800 INR", 
+    "power": "110 hp",
+    "torque": "92 Nm (68 lb-ft)",
+    "weight": "211 kg",
+    "img": "../img/DesertX/Model-Menu-MY23-DesertX-Rally.png",
+    "bg": "../img/DesertX/RALLY.jpeg"
+  },
+  {
+    "model": "DesertX",
+    "product": "DesertX",
+    "price": "18,33,200 INR", 
+    "power": "110 hp",
+    "torque": "92 Nm (68 lb-ft)",
+    "weight": "210 kg",
+    "img": "../img/DesertX/MY-22-DesertX-Model-Blocks-630x390.png",
+    "bg": "../img/DesertX/Ducati-DesertX-veicolo-hero-short-1600x1000-01.webp"
+  },
+  {
+    "model": "Diavel",
+    "product": "Diavel V4",
+    "price": "25,91,000 INR", 
+    "power": "168 hp",
+    "torque": "126 Nm (93 lb-ft)",
+    "weight": "223 kg",
+    "img": "../img/Diavel/Model-Menu-MY23-Diavel-V4-Rd.png",
+    "bg": "../img/Diavel/Ducati-Diavel-V4-MY23-overview-gallery-1920x1080-06.jpg"
+  },
+  {
+    "model": "Hypermotard",
+    "product": "Hypermotard 698 Mono",
+    "price": "16,50,000 INR", 
+    "power": "77.5 hp",
+    "torque": "63 Nm (46.5 lb-ft)",
+    "weight": "151 kg",
+    "img": "../img/Hypermotard/Model-Menu-MY24-Hypermotard-698-Mono.png",
+    "bg": "../img/Hypermotard/Ducati-Hypermotard-Mono-DWP24-Overview-gallery-1920x1080-06.jpg"
+  },
+  {
+    "model": "Hypermotard",
+    "product": "Hypermotard 950 RVE",
+    "price": "16,00,500 INR", 
+    "power": "114 hp",
+    "torque": "96 Nm (71 lb-ft)",
+    "weight": "193 kg",
+    "img": "../img/Hypermotard/Model-Menu-MY22-HYM-950-RVE-v06.png",
+    "bg": "../img/Hypermotard/Ducati-Hypermotard-950-RVE-MY24-overview-gallery-1920x1080-03.jpg"
+  },
+  {
+    "model": "Hypermotard",
+    "product": "Hypermotard 950 SP",
+    "price": "19,05,350 INR", 
+    "power": "114 hp",
+    "torque": "96 Nm (71 lb-ft)",
+    "weight": "191 kg",
+    "img": "../img/Hypermotard/Model-Menu-MY22-HYM-SP-v06.png",
+    "bg": "../img/Hypermotard/Ducati-Hypermotard-950-RVE-MY24-overview-gallery-1920x1080-03.jpg"
+  },
+  {
+    "model": "Monster",
+    "product": "Monster Senna",
+    "price": "TBD INR", 
+    "power": "111 hp",
+    "torque": "93 Nm (9.5 kgm)",
+    "weight": "175 kg",
+    "img": "../img/Monster/Model-Menu-MY24-Monster-Senna.png",
+    "bg": "../img/Monster/Ducati-MY25-Monster-Senna-Anniversary-Edition-Overview-hero-1600x1000.jpg"
+  },
+  {
+    "model": "Monster",
+    "product": "Monster",
+    "price": "12,95,000 INR", 
+    "power": "111 hp",
+    "torque": "93.5 Nm (69 lb-ft)",
+    "weight": "179 kg",
+    "img": "../img/Monster/Model-Menu-MY22-Monster-937-plus-Rd-v06.png",
+    "bg": "../img/Monster/Ducati-Monster-MY24-oveview-gallery-1920x1080-04.jpg"
+  },
+  {
+    "model": "Monster",
+    "product": "Monster SP",
+    "price": "15,95,000 INR", 
+    "power": "111 hp",
+    "torque": "93.5 Nm (9.5 kgm)",
+    "weight": "177 kg",
+    "img": "../img/Monster/Model-Menu-MY23-Monster-937-SP.png",
+    "bg": "../img/Monster/Ducati-Monster-SP-MY23-overview-gallery-02-1920x1080.jpg"
+  },
+  {
+    "model": "Monster",
+    "product": "Monster 30° Anniversario",
+    "price": "TBD INR", 
+    "power": "111 hp",
+    "torque": "93 Nm (9.5 kgm)",
+    "weight": "175 kg",
+    "img": "../img/Monster/Model-Menu-MY23-Monster-30-Anniversario.png",
+    "bg": "../img/Monster/Ducati-Monster-30-anniversario-MY24-overview-gallery-01-1920x1080-07.jpg"
+  },
+  {
+    "model": "Streetfighter",
+    "product": "Streetfighter V2",
+    "price": "18,50,200 INR", 
+    "power": "153 hp",
+    "torque": "123 Nm (90.4 lb-ft)",
+    "weight": "193 kg",
+    "img": "../img/Streetfighter/Model-Menu-MY22-SF-V2-v06.png",
+    "bg": "../img/Streetfighter/Streetfighter-V2-02-design-gallery-906x510-v02.webp"
+  },
+  {
+    "model": "Streetfighter",
+    "product": "Streetfighter V4 S",
+    "price": "28,00,000 INR", 
+    "power": "208 hp",
+    "torque": "123 Nm (90.4 lb-ft)",
+    "weight": "193 kg",
+    "img": "../img/Streetfighter/Model-Menu-MY23-Streetfighter-V4S-Gr.png",
+    "bg": "../img/Streetfighter/Ducati-Streetfighter-V4-MY23-overview-gallery-1920x1080-05.jpg"
+  },
+  {
+    "model": "Streetfighter",
+    "product": "Ducati Streetfighter V4 Supreme®",
+    "price": "TBD INR", 
+    "power": "208 hp",
+    "torque": "123 Nm (90.7 lb-ft)",
+    "weight": "193 kg",
+    "img": "../img/Streetfighter/Model-Menu-MY24-Streetfighter-V4-Supreme.png",
+    "bg": "../img/Streetfighterer/Ducati-Streetfighter-Supreme-Overview-hero-short-1600x1000.webp"
+  },
+  {
+    "model": "Multistrada",
+    "product": "Multistrada V2",
+    "price": "16,35,700 INR", 
+    "power": "113 hp",
+    "torque": "96 Nm (71 lb-ft)",
+    "weight": "217 kg",
+    "img": "../img/Multistrada/Model-Menu-MY22-MTS-V2-v06.png",
+    "bg": "../img/Multistrada/MTS-V2-MY22-Studio-Grigia-03-Gallery-906x510.webp"
+  },
+  {
+    "model": "Multistrada",
+    "product": "Multistrada V2 S",
+    "price": "18,99,200 INR", 
+    "power": "113 hp",
+    "torque": "96 Nm (71 lb-ft)",
+    "weight": "220 kg",
+    "img": "../img/Multistrada/Model-Menu-MY22-MTS-V2S-Gr-v02.png",
+    "bg": "../img/Multistrada/MTS-V4-MY21-Urban-03-gallery-1920x1080.jpg"
+  },
+  {
+    "model": "Multistrada",
+    "product": "Multistrada V4 Rally",
+    "price": "30,02,000 INR", 
+    "power": "170 hp",
+    "torque": "121 Nm (12.3 kgm)",
+    "weight": "238 kg",
+    "img": "../img/Multistrada/Model-Menu-MY23-Multistrada-Rally-Radar-Gr.png",
+    "bg": "../img/Multistrada/Ducati-Multistrada-V4-Rally-overview-mosaic-gallery-780x430-08.jpg"
+  },
+  {
+    "model": "Multistrada",
+    "product": "Multistrada V4 Pikes Peak",
+    "price": "31,48,000 INR", 
+    "power": "170 hp",
+    "torque": "124.5 Nm (12.7 kgm)",
+    "weight": "227 kg",
+    "img": "../img/Multistrada/Model-Menu-MY22-MTS-V4-PP-v06.png",
+    "bg": "../img/Multistrada/Ducati-MTS-V21N-08-Gallery-Studio-1920x1080.jpg"
+  },
+  {
+    "model": "Multistrada",
+    "product": "Multistrada V4 RS",
+    "price": "38,40,000 INR", 
+    "power": "180 hp",
+    "torque": "118 Nm (87 lb-ft)",
+    "weight": "225 kg",
+    "img": "../img/Multistrada/Model-Menu-MY24-Multistrada-V4-RS.png",
+    "bg": "../img/Multistrada/Ducati-Multistrada-RS-DWP24-Overview-hero-short-1600x1000-02.jpg"
+  },
+  {
+    "model": "Panigale",
+    "product": "Panigale V2",
+    "price": "20,98,000 INR", 
+    "power": "155 hp",
+    "torque": "104 Nm (76.7 lb-ft)",
+    "weight": "193 kg",
+    "img": "../img/Panigale/Model-Menu-MY23-Panigale-V2-Bk.png",
+    "bg": "../img/Panigale/Ducati-Panigale-V2-MY24-overview-hero-short-1600x1000.webp"
+  },
+  {
+    "model": "Panigale",
+    "product": "Panigale V2 Bayliss",
+    "price": "24,12,500 INR", 
+    "power": "155 hp",
+    "torque": "104 Nm (76.7 lb-ft)",
+    "weight": "190 kg",
+    "img": "../img/Panigale/Model-Menu-MY22-PV2-Bayliss.png",
+    "bg": "../img/Panigale/Troy-Bayliss-04-Gallery-dettaglio-1920x1080.jpg"
+  },
+  {
+    "model": "Panigale",
+    "product": "Panigale V4",
+    "price": "27,72,600 INR", 
+    "power": "215.5 hp",
+    "torque": "123.6 Nm (91.2 lb-ft)",
+    "weight": "192 kg",
+    "img": "../img/Panigale/Model-Menu-MY22-Panigale-V4-v07.png",
+    "bg": "../img/Panigale/Panigale-MYV4-Dinamica-70-Gallery-1920x1080.jpg"
+  },
+  {
+    "model": "Panigale",
+    "product": "Panigale V4 S",
+    "price": "33,47,600 INR", 
+    "power": "215.5 hp",
+    "torque": "123.6 Nm (91.2 lb-ft)",
+    "weight": "189 kg",
+    "img": "../img/Panigale/Model-Menu-MY22-Panigale-V4-S-V06.png",
+    "bg": "../img/Panigale/Panigale-MYV4-Dinamica-70-Gallery-1920x1080.jpg"
+  },
+  {
+    "model": "Panigale",
+    "product": "Panigale V4 R",
+    "price": "69,99,000 INR", 
+    "power": "237 hp",
+    "torque": "118 Nm (87 lb-ft)",
+    "weight": "179 kg",
+    "img": "../img/Panigale/Model-Menu-MY23-Panigale-V4R.png",
+    "bg": "../img/Panigale/Ducati-Panigale-V4R-MY23-overview-gallery-08-1920x1080.jpg"
+  },
+  {
+    "model": "SuperSport",
+    "product": "SuperSport 950",
+    "price": "16,05,700 INR", 
+    "power": "110 hp",
+    "torque": "93.5 Nm (69 lb-ft)",
+    "weight": "205 kg",
+    "img": "../img/Supersport/Supersport_780-x-430.png",
+    "bg": "../img/SuperSport/Supersport-950-overview-gallery-1920x1080-04.jpg"
+  },
+  {
+    "model": "SuperSport",
+    "product": "SuperSport 950 S",
+    "price": "19,11,000 INR", 
+    "power": "110 hp",
+    "torque": "93.5 Nm (69 lb-ft)",
+    "weight": "205 kg",
+    "img": "../img/Supersport/Supersport_S_780x430.png",
+    "bg": "../img/SuperSport/Supersport-950-overview-gallery-1920x1080-04.jpg"
+  },
+  {
+    "model": "Scrambler1100",
+    "product": "1100 Sport Pro",
+    "price": "15,99,000 INR", 
+    "power": "- hp",
+    "torque": "- Nm (- lb-ft)",
+    "weight": "- kg",
+    "img": "../img/Scrambler1100/Model-Menu-MY20-1100-SportPro.png",
+    "bg": "../img/Scrambler1100/Scrambler-single-bike-1100-sport-pro-media-slider-1920x1080-05.jpg"
+  },
+  {
+    "model": "Scrambler1100",
+    "product": "1100 Dark Pro",
+    "price": "13,40,000 INR", 
+    "power": "- hp",
+    "torque": "- Nm (- lb-ft)",
+    "weight": "- kg",
+    "img": "../img/Scrambler1100/Model-Menu-MY21-SCR-1100-Dark-Pro-v02.png",
+    "bg": "../img/Scrambler1100/1100-Dark-PRO_22.jpg"
+  },
+  {
+    "model": "Scrambler1100",
+    "product": "1100 Tribute Pro",
+    "price": "14,10,000 INR", 
+    "power": "- hp",
+    "torque": "- Nm (- lb-ft)",
+    "weight": "- kg",
+    "img": "../img/Scrambler1100/Model-Menu-MY22-SCR-1100-Tribute.png",
+    "bg": "../img/Scrambler1100/Scrambler-Ducati-1100-Tribute-Pro-Dynamic-Gallery-04.jpg"
+  },
+  {
+    "model": "Scrambler2G",
+    "product": "Icon",
+    "price": "10,39,000 INR", 
+    "power": "- hp",
+    "torque": "- Nm (- lb-ft)",
+    "weight": "- kg",
+    "img": "../img/Scrambler2G/Scrambler_icon-red-780x430.png",
+    "bg": "../img/Scrambler2G/Scrambler-Icon-Dark-MY25-pagina-prodotto-cover-1920x1080-02.jpg"
+  },
+  {
+    "model": "Scrambler2G",
+    "product": "Nightshift",
+    "price": "12,00,000 INR", 
+    "power": "- hp",
+    "torque": "- Nm (- lb-ft)",
+    "weight": "- kg",
+    "img": "../img/Scrambler2G/Model-Menu-MY23-SCR-Nightshift.png",
+    "bg": "../img/Scrambler2G/Scrambler-Nightshift-Next-Gen-riding-gallery-1920x1080-09.jpg"
+  },
+  {
+    "model": "Scrambler2G",
+    "product": "Full Throttle",
+    "price": "12,00,000 INR", 
+    "power": "- hp",
+    "torque": "- Nm (- lb-ft)",
+    "weight": "- kg",
+    "img": "../img/Scrambler2G/Model-Menu-MY23-SCR-Full-Throttle.png",
+    "bg": "../img/Scrambler2G/Scrambler-Full-Throttle-MY25-pagina-prodotto-media-slider-1920x1080-05.jpg"
+  }
+]

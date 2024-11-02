@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./home.css">
+  <link rel="stylesheet" href="./bike.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body class="bod">
+  <nav id="navBar">
+    
+    <ul class="part-1">
+      <a href="./index.html"><img src="../img/ducati_id.png" alt="Ducati" id="logo"></a>
+      <li><span style="color: #F5003B;">Models</span></li>
+      <li>News</li>
+      <li>Contact us</li>
+    </ul>
+
+    <ul class="part-2">
+      <form action="submit" id="formBlock">
+        <input type="text" placeholder="Search" id="inputData">
+        <button type="submit" class="submitBtn"><img src="../img/magnifying-glass.png" alt=""></button>
+      </form>
+      
+      <a href="" class="shopImg"><img src="../img/online-shopping.png" alt=""></a>
+   </ul>
+  
+  </nav>
+
+  <main id="bikeMain">
+    <section class="imgSec">
+      <div class="fadetop"></div>
+      <img src="../img/DesertX/RALLY.jpeg" alt="rally">
+    </section>
+  
+    <section class="specSec">
+      <p id="specs">SPECS</p>
+      <hr>
+      <div class="specContainer">
+        <div class="itemCont">
+          <span class="title">Power</span>
+          <span class="value">73 hp (53.6 kW) @ 8,250 rpm</span>
+        </div>
+        <div class="itemCont">
+          <span class="title">Torque</span>
+          <span class="value">48.1 lb-ft (65.2 Nm) @ 7,000 rpm</span>
+        </div>
+        <div class="itemCont">
+          <span class="title">Wet weight no fuel</span>
+          <span class="value">176 kg (388 lb)</span>
+        </div>
+        <div class="itemCont">
+          <span class="title">Fuel tank capacity</span>
+          <span class="value">176 kg (388 lb)</span>
+        </div>
+        <div class="price">
+          <span class="priceText">Price - </span>
+          <span class="priceValue">19,92,000 INR</span>
+        </div>
+      </div>
+      <div class="btnCont"><button class="AddToCart">ADD TO CART</button></div>
+    </section>
+  </main>
+  
+  <script src="./bikeDetails.js"></script>
+  <script src="./topModels.js"></script>
+</body>
+</html>
