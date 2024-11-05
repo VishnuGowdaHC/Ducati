@@ -196,16 +196,7 @@ main {
   margin-left: 15px;
 }
 
-.readMore {
-  border: none;
-  font-family: "Saira", serif;;
-  background-color: #2e010100;
-  text-align: center;
-  color: #fb5353;
-  padding: 1px;
-  font-size: 1rem;
-  font-weight: 500;
-}
+
 
 
 .blur1{
@@ -263,15 +254,13 @@ main {
   margin: 0;
   padding: 0;
 }
-
-.topModels a {
-  all: unset; /* Unset all properties */
+.readMore {
   border: none;
   font-family: "Saira", serif;
-  
-  background-color: #2e0101ef;
   text-align: center;
   color: #fb5353;
-  padding: 2px;
-    
+  padding: 1px;
+  font-size: 1rem;
+  font-weight: 500;
+  
 }
