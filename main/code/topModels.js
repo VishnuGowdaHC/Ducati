@@ -9,14 +9,15 @@ async function getData() {
 
     const data = await response.json(); // Store the JSON data in a variable
     displayTopModels(data);
+    return data;
   }
   catch(error){
     console.error(error);
   }
 }
 
- 
 
+const data = getData();
 
 
 
@@ -122,6 +123,31 @@ function displayModelDetails(jsonData, bikeName){
     
    
     sessionStorage.removeItem("bikeName");
+}
+
+async function selectBike(selectedBikebike)
+{
+  let updateBike = ``;
+  let bikeHTML = document.querySelector('.selectedModel');
+  const BikeModel = await data;
+
+  let filteredBike = BikeModel.filter((bike) => bike.model === selectedBikebike);
+  console.log(filteredBike);
+  filteredBike.forEach((Bike) => {
+    updateBike += `
+    <div class="modelContainer js-model">
+          <img src="${Bike.img}" alt="${Bike.product}" class="modelImg">
+          <div>
+            <p class="modelName">${Bike.product}</p>
+            <p class="modelPrice">${Bike.price}</p>
+          </div>
+          <button class="readMore" onclick="bikeDisplay('${Bike.product}')">Read more</button>
+        </div>
+    `
+  })
+  console.log(updateBike);
+ bikeHTML.innerHTML = updateBike;
+
 }
 
 document.addEventListener("DOMContentLoaded", getData);//fetched the data
