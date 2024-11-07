@@ -9,13 +9,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
 </head>
 
 <body>
   <nav id="navBar">
     
     <ul class="part-1">
-      <a href="./index.html"><img src="../img/ducati_id.png" alt="Ducati" id="logo"></a>
+      <a href="./index.html"><img src="../../img/ducati_id.png" alt="Ducati" id="logo"></a>
       <li><span style="color: #F5003B;">Models</span></li>
       <li>News</li>
       <li>Contact us</li>
@@ -24,10 +25,10 @@
     <ul class="part-2">
       <form action="submit" id="formBlock">
         <input type="text" placeholder="Search" id="inputData">
-        <button type="submit" class="submitBtn"><img src="../img/magnifying-glass.png" alt=""></button>
+        <button type="submit" class="submitBtn"><img src="../../img/magnifying-glass.png" alt=""></button>
       </form>
       
-      <a href="" class="shopImg"><img src="../img/online-shopping.png" alt=""></a>
+      <a href="../cart/cart.html" class="shopImg"><img src="../../img/online-shopping.png" alt="" onclick="displayCart()"></a>
    </ul>
   
   </nav>
@@ -35,7 +36,7 @@
   <main id="main">
     <section class="advertising">
       <div class="bg"></div>
-      <img src="../img/bg/wallpaperflare.com_wallpaper.jpg" alt="">
+      <img src="../../img/bg/wallpaperflare.com_wallpaper.jpg" alt="">
     </section>
 
     <p class="textModels">Top Models</p>
@@ -43,7 +44,7 @@
     <section class="topModels">
       <!-- this is just a template -->
       <div class="modelContainer" style="display: none;">
-        <img src="../img/DesertX/Model-Menu-MY23-DesertX-Rally.png" alt="desertx rally" class="modelImg">
+        <img src="../../img/DesertX/Model-Menu-MY23-DesertX-Rally.png" alt="desertx rally" class="modelImg">
         <div>
           <p class="modelName">DesertX Rally</p>
           <p class="modelPrice">23,70,800 INR</p>
@@ -74,7 +75,7 @@
     <section class="topModels js-display">
       <!-- this is just a template -->
       <div class="modelContainer js-model" style="display: none;">
-        <img src="../img/DesertX/Model-Menu-MY23-DesertX-Rally.png" alt="desertx rally" class="modelImg">
+        <img src="../../img/DesertX/Model-Menu-MY23-DesertX-Rally.png" alt="desertx rally" class="modelImg">
         <div>
           <p class="modelName">DesertX Rally</p>
           <p class="modelPrice">23,70,800 INR</p>
@@ -99,6 +100,8 @@
   <div class="blur6"></div>
 </div>
   
-  <script src="./topModels.js"></script>
+<script src="./topModels.js"></script>
+<script src="../bikeDetails/bikeDetails.js"></script>
+<script src="../cart/cart.js"></script>
 </body>
 </html>

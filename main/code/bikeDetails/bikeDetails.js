@@ -1,6 +1,6 @@
 async function getBikeData() {
   try {
-    const response = await fetch("./data.json");
+    const response = await fetch("../data.json");
 
     if(!response.ok){
       throw new Error("Could not fetch the data!");
@@ -27,5 +27,6 @@ async function displayBike() {
 document.addEventListener("DOMContentLoaded", async () => {
   await displayBike(); // Ensure DOM is ready before displaying bikes
 });
+
 
 

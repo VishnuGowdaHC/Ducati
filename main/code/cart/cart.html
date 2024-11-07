@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../home/home.css">
+  <link rel="stylesheet" href="../bikeDetails/bike.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script src="../home/topModels.js" async></script>
+</head>
+
+<body class="bod">
+  <nav id="navBar">
+    
+    <ul class="part-1">
+      <a href="../home/index.html"><img src="../../img/ducati_id.png" alt="Ducati" id="logo"></a>
+      <li><span style="color: #F5003B;">Models</span></li>
+      <li>News</li>
+      <li>Contact us</li>
+    </ul>
+
+    <ul class="part-2">
+      <form action="submit" id="formBlock">
+        <input type="text" placeholder="Search" id="inputData">
+        <button type="submit" class="submitBtn"><img src="../../img/magnifying-glass.png" alt=""></button>
+      </form>
+   </ul>
+  
+  </nav>
+
+  <main id="bikeCart">
+    <section class="infoContainer">
+      <div class="bikeUnit">
+        <div class="bikeCont">
+          <img src="../../img/DesertX/MY-22-DesertX-Model-Blocks-630x390.png" alt="">
+        </div>
+        <input type="number" class="Qty" min="0" max="5" value="1">
+      </div>
+
+      <div class="bikeInfo">
+        <div class="wordBlock">
+          <span class="productName">DesertX</span>
+          <br>
+          <span class="productInfo">110HP, 92Nm, 210kg</span>
+          <br>
+          <span class="priceINR">18,33,000 INR</span>
+        </div>
+
+        <div class="btnBlock">
+          <button class="buyNow">Buy Now</button>
+          <button class="remove">Remove</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="blurbox">
+    <div class="blur1"></div>
+    <div class="blur2"></div>
+    <div class="blur3"></div>
+    <div class="blur4"></div>
+    <div class="blur5"></div>
+    <div class="blur6"></div>
+  </div>
+  <script src="./cart.js"></script>
+  <script src="../home/topModels.js"></script>
+  <script src="../bikeDetails/bikeDetails.js"></script>
+</body>
+</html>
