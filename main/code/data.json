@@ -2,7 +2,7 @@
   {
     "model": "DesertX",
     "product": "DesertX Rally",
-    "price": "23,70,800 INR", 
+    "price": "23,70,800", 
     "power": "110 hp",
     "torque": "92 Nm (68 lb-ft)",
     "weight": "211 kg",
@@ -12,7 +12,7 @@
   {
     "model": "DesertX",
     "product": "DesertX",
-    "price": "18,33,200 INR", 
+    "price": "18,33,200", 
     "power": "110 hp",
     "torque": "92 Nm (68 lb-ft)",
     "weight": "210 kg",
@@ -22,7 +22,7 @@
   {
     "model": "Diavel",
     "product": "Diavel V4",
-    "price": "25,91,000 INR", 
+    "price": "25,91,000", 
     "power": "168 hp",
     "torque": "126 Nm (93 lb-ft)",
     "weight": "223 kg",
@@ -32,7 +32,7 @@
   {
     "model": "Hypermotard",
     "product": "Hypermotard 698 Mono",
-    "price": "16,50,000 INR", 
+    "price": "16,50,000", 
     "power": "77.5 hp",
     "torque": "63 Nm (46.5 lb-ft)",
     "weight": "151 kg",
@@ -42,7 +42,7 @@
   {
     "model": "Hypermotard",
     "product": "Hypermotard 950 RVE",
-    "price": "16,00,500 INR", 
+    "price": "16,00,500", 
     "power": "114 hp",
     "torque": "96 Nm (71 lb-ft)",
     "weight": "193 kg",
@@ -52,7 +52,7 @@
   {
     "model": "Hypermotard",
     "product": "Hypermotard 950 SP",
-    "price": "19,05,350 INR", 
+    "price": "19,05,350", 
     "power": "114 hp",
     "torque": "96 Nm (71 lb-ft)",
     "weight": "191 kg",
@@ -62,7 +62,7 @@
   {
     "model": "Monster",
     "product": "Monster Senna",
-    "price": "TBD INR", 
+    "price": "000", 
     "power": "111 hp",
     "torque": "93 Nm (9.5 kgm)",
     "weight": "175 kg",
@@ -72,7 +72,7 @@
   {
     "model": "Monster",
     "product": "Monster",
-    "price": "12,95,000 INR", 
+    "price": "12,95,000", 
     "power": "111 hp",
     "torque": "93.5 Nm (69 lb-ft)",
     "weight": "179 kg",
@@ -82,7 +82,7 @@
   {
     "model": "Monster",
     "product": "Monster SP",
-    "price": "15,95,000 INR", 
+    "price": "15,95,000", 
     "power": "111 hp",
     "torque": "93.5 Nm (9.5 kgm)",
     "weight": "177 kg",
@@ -92,7 +92,7 @@
   {
     "model": "Monster",
     "product": "Monster 30° Anniversario",
-    "price": "TBD INR", 
+    "price": "000", 
     "power": "111 hp",
     "torque": "93 Nm (9.5 kgm)",
     "weight": "175 kg",
@@ -102,7 +102,7 @@
   {
     "model": "Streetfighter",
     "product": "Streetfighter V2",
-    "price": "18,50,200 INR", 
+    "price": "18,50,200", 
     "power": "153 hp",
     "torque": "123 Nm (90.4 lb-ft)",
     "weight": "193 kg",
@@ -112,7 +112,7 @@
   {
     "model": "Streetfighter",
     "product": "Streetfighter V4 S",
-    "price": "28,00,000 INR", 
+    "price": "28,00,000", 
     "power": "208 hp",
     "torque": "123 Nm (90.4 lb-ft)",
     "weight": "193 kg",
@@ -122,7 +122,7 @@
   {
     "model": "Streetfighter",
     "product": "Ducati Streetfighter V4 Supreme®",
-    "price": "TBD INR", 
+    "price": "000", 
     "power": "208 hp",
     "torque": "123 Nm (90.7 lb-ft)",
     "weight": "193 kg",
@@ -132,7 +132,7 @@
   {
     "model": "Multistrada",
     "product": "Multistrada V2",
-    "price": "16,35,700 INR", 
+    "price": "16,35,700", 
     "power": "113 hp",
     "torque": "96 Nm (71 lb-ft)",
     "weight": "217 kg",
@@ -142,7 +142,7 @@
   {
     "model": "Multistrada",
     "product": "Multistrada V2 S",
-    "price": "18,99,200 INR", 
+    "price": "18,99,200", 
     "power": "113 hp",
     "torque": "96 Nm (71 lb-ft)",
     "weight": "220 kg",
@@ -152,7 +152,7 @@
   {
     "model": "Multistrada",
     "product": "Multistrada V4 Rally",
-    "price": "30,02,000 INR", 
+    "price": "30,02,000", 
     "power": "170 hp",
     "torque": "121 Nm (12.3 kgm)",
     "weight": "238 kg",
@@ -162,7 +162,7 @@
   {
     "model": "Multistrada",
     "product": "Multistrada V4 Pikes Peak",
-    "price": "31,48,000 INR", 
+    "price": "31,48,000", 
     "power": "170 hp",
     "torque": "124.5 Nm (12.7 kgm)",
     "weight": "227 kg",
@@ -172,7 +172,7 @@
   {
     "model": "Multistrada",
     "product": "Multistrada V4 RS",
-    "price": "38,40,000 INR", 
+    "price": "38,40,000", 
     "power": "180 hp",
     "torque": "118 Nm (87 lb-ft)",
     "weight": "225 kg",
@@ -182,7 +182,7 @@
   {
     "model": "Panigale",
     "product": "Panigale V2",
-    "price": "20,98,000 INR", 
+    "price": "20,98,000", 
     "power": "155 hp",
     "torque": "104 Nm (76.7 lb-ft)",
     "weight": "193 kg",
@@ -192,7 +192,7 @@
   {
     "model": "Panigale",
     "product": "Panigale V2 Bayliss",
-    "price": "24,12,500 INR", 
+    "price": "24,12,500", 
     "power": "155 hp",
     "torque": "104 Nm (76.7 lb-ft)",
     "weight": "190 kg",
@@ -202,7 +202,7 @@
   {
     "model": "Panigale",
     "product": "Panigale V4",
-    "price": "27,72,600 INR", 
+    "price": "27,72,600", 
     "power": "215.5 hp",
     "torque": "123.6 Nm (91.2 lb-ft)",
     "weight": "192 kg",
@@ -212,7 +212,7 @@
   {
     "model": "Panigale",
     "product": "Panigale V4 S",
-    "price": "33,47,600 INR", 
+    "price": "33,47,600", 
     "power": "215.5 hp",
     "torque": "123.6 Nm (91.2 lb-ft)",
     "weight": "189 kg",
@@ -222,7 +222,7 @@
   {
     "model": "Panigale",
     "product": "Panigale V4 R",
-    "price": "69,99,000 INR", 
+    "price": "69,99,000", 
     "power": "237 hp",
     "torque": "118 Nm (87 lb-ft)",
     "weight": "179 kg",
@@ -232,7 +232,7 @@
   {
     "model": "SuperSport",
     "product": "SuperSport 950",
-    "price": "16,05,700 INR", 
+    "price": "16,05,700", 
     "power": "110 hp",
     "torque": "93.5 Nm (69 lb-ft)",
     "weight": "205 kg",
@@ -242,7 +242,7 @@
   {
     "model": "SuperSport",
     "product": "SuperSport 950 S",
-    "price": "19,11,000 INR", 
+    "price": "19,11,000", 
     "power": "110 hp",
     "torque": "93.5 Nm (69 lb-ft)",
     "weight": "205 kg",
@@ -252,7 +252,7 @@
   {
     "model": "Scrambler1100",
     "product": "1100 Sport Pro",
-    "price": "15,99,000 INR", 
+    "price": "15,99,000", 
     "power": "- hp",
     "torque": "- Nm (- lb-ft)",
     "weight": "- kg",
@@ -262,7 +262,7 @@
   {
     "model": "Scrambler1100",
     "product": "1100 Dark Pro",
-    "price": "13,40,000 INR", 
+    "price": "13,40,000", 
     "power": "- hp",
     "torque": "- Nm (- lb-ft)",
     "weight": "- kg",
@@ -272,7 +272,7 @@
   {
     "model": "Scrambler1100",
     "product": "1100 Tribute Pro",
-    "price": "14,10,000 INR", 
+    "price": "14,10,000", 
     "power": "- hp",
     "torque": "- Nm (- lb-ft)",
     "weight": "- kg",
@@ -282,7 +282,7 @@
   {
     "model": "Scrambler2G",
     "product": "Icon",
-    "price": "10,39,000 INR", 
+    "price": "10,39,000", 
     "power": "- hp",
     "torque": "- Nm (- lb-ft)",
     "weight": "- kg",
@@ -292,7 +292,7 @@
   {
     "model": "Scrambler2G",
     "product": "Nightshift",
-    "price": "12,00,000 INR", 
+    "price": "12,00,000", 
     "power": "- hp",
     "torque": "- Nm (- lb-ft)",
     "weight": "- kg",
@@ -302,7 +302,7 @@
   {
     "model": "Scrambler2G",
     "product": "Full Throttle",
-    "price": "12,00,000 INR", 
+    "price": "12,00,000", 
     "power": "- hp",
     "torque": "- Nm (- lb-ft)",
     "weight": "- kg",

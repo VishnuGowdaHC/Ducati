@@ -50,7 +50,7 @@ async function displayModelDetails(jsonData, bikeName){
         </div>
         <div class="price">
           <span class="priceText">Price - </span>
-          <span class="priceValue">${selectedBike.price}</span>
+          <span class="priceValue">${selectedBike.price} INR</span>
         </div>
       </div>
       <div class="btnCont"><button class="AddToCart" onclick="displayCart('${selectedBike.product}');">ADD TO CART</button></div>
@@ -74,6 +74,7 @@ async function displayBike() {
 }
 
 function displayCart(bikename){
+window.alert('Added To Cart')
   if(bikename){
     totalBike.push(bikename);
     localStorage.setItem('cartItems', JSON.stringify(totalBike));

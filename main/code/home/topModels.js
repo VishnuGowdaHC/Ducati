@@ -36,7 +36,7 @@ function displayTopModels(data) {
         <img src="../${bike.img}" alt="desertx rally" class="modelImg">
         <div>
           <p class="modelName">${bike.product}</p>
-          <p class="modelPrice">${bike.price}</p>
+          <p class="modelPrice">${bike.price} INR</p>
         </div>
        <button class="readMore" onclick="bikeDisplay('${bike.product}')">Read more</button>
       </div>
@@ -66,7 +66,7 @@ function selectBike(selectedBike)
           <img src="../${Bike.img}" alt="${Bike.product}" class="modelImg">
           <div>
             <p class="modelName">${Bike.product}</p>
-            <p class="modelPrice">${Bike.price}</p>
+            <p class="modelPrice">${Bike.price} INR</p>
           </div>
           <button class="readMore" onclick="bikeDisplay('${Bike.product}')">Read more</button>
         </div>

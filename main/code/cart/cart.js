@@ -1,4 +1,4 @@
-
+totalBike = JSON.parse(localStorage.getItem('cartItems')) || ['Panigale V4 R', 'Multistrada'];
 async function getDataCart() {
   try {
     const response = await fetch("../data.json");
@@ -7,14 +7,22 @@ async function getDataCart() {
       throw new Error("Could not fetch the data!");
     }
 
-    DATA = await response.json(); // Store the JSON data in a variable
-    displayCartItems(DATA);
+    bikeData = await response.json(); // Store the JSON data in a variable
+    displayCartItems(bikeData);
   }
   catch(error){
     console.error(error);
   }
 }
-
+function remove(bikeName) {
+  window.alert('Removed');
+  console.log("Removing bike:", bikeName);
+  totalBike = totalBike.filter(bike => bike !== bikeName); 
+  localStorage.setItem('cartItems', JSON.stringify(totalBike)); 
+  console.log("Updated cart items:", totalBike);
+  getDataCart();
+ 
+}
 
 async function displayCartItems(data){
   let updateHTML = ``;
@@ -39,12 +47,12 @@ async function displayCartItems(data){
           <br>
           <span class="productInfo">${item.power}, ${item.torque}, ${item.weight}</span>
           <br>
-          <span class="priceINR">${item.price}</span>
+          <span class="priceINR">${item.price} INR</span>
         </div>
 
         <div class="btnBlock">
           <button class="buyNow">Buy Now</button>
-          <button class="remove">Remove</button>
+          <button class="remove" onclick="remove('${item.product}');">Remove</button>
         </div>
       </div>
     </section>
@@ -54,5 +62,7 @@ async function displayCartItems(data){
   
   DOM.innerHTML = updateHTML;
 }
+
+
 
 document.addEventListener("DOMContentLoaded", getDataCart);//fetched the data
