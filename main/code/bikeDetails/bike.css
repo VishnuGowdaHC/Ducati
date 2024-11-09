@@ -157,7 +157,7 @@ hr {
   background-color: #2D2B2B;
   border-radius: 10px;
   margin: 30px;
-  padding: 50px;
+  padding: 30px;
 }
 
 .infoContainer {
@@ -167,6 +167,7 @@ hr {
   background-color: #141313;
   padding: 30px;
   border-radius: 30px;
+  margin: 20px;
 }
 
 .bikeUnit {
@@ -179,7 +180,7 @@ hr {
 
 .Qty {
   margin-right: 30px;
-  width: 4.4rem;
+  width: 1.5rem;
   margin-top: 20px;
   padding: 5px;
   color: #C2C2C2;

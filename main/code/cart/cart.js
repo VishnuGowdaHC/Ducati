@@ -1,37 +1,45 @@
-let totalBike = ``;
 
-function addToCart(bikeName) { 
-  console.log("helo");
-  let updateHTML = '';
-  console.log("heeelo");
-  console.log("hilo");
-  let Data = DATA;
-  console.log("belo");
-  const foundBike = Data.find((bike) => bike.product === bikeName);
-   
+async function getDataCart() {
+  try {
+    const response = await fetch("../data.json");
 
-    if (!foundBike) {
-      console.error("Bike not found in data!");
-      return;
+    if(!response.ok){
+      throw new Error("Could not fetch the data!");
     }
-    console.log("belo");
-    
-  updateHTML = `
-  <section class="infoContainer">
+
+    DATA = await response.json(); // Store the JSON data in a variable
+    displayCartItems(DATA);
+  }
+  catch(error){
+    console.error(error);
+  }
+}
+
+
+async function displayCartItems(data){
+  let updateHTML = ``;
+  let DOM = document.querySelector('#bikeCart');
+  let bikeData = await data
+  
+  let filteredBike = bikeData.filter((bike) => totalBike.includes(bike.product));
+
+  filteredBike.forEach((item) => {
+    updateHTML += `
+    <section class="infoContainer">
       <div class="bikeUnit">
         <div class="bikeCont">
-          <img src="../${foundBike.img}" alt="">
+          <img src="../${item.img}" alt="">
         </div>
         <input type="number" class="Qty" min="0" max="5" value="1">
       </div>
 
       <div class="bikeInfo">
         <div class="wordBlock">
-          <span class="productName">${foundBike.product}</span>
+          <span class="productName">${item.product}</span>
           <br>
-          <span class="productInfo">${foundBike.power}, ${foundBike.torque}, ${foundBike.weight}</span>
+          <span class="productInfo">${item.power}, ${item.torque}, ${item.weight}</span>
           <br>
-          <span class="priceINR">${foundBike.price}</span>
+          <span class="priceINR">${item.price}</span>
         </div>
 
         <div class="btnBlock">
@@ -40,17 +48,11 @@ function addToCart(bikeName) {
         </div>
       </div>
     </section>
-  `
-  console.log(updateHTML);
-  totalBike += `${foundBike.product}`;
- 
-  document.querySelector('#bikeCart').innerHTML = updateHTML;
-  }
- 
+    `
+
+  })
   
-
-
-function displayCart(){
-  let updateCart = localStorage.getItem('cartDetails') || "<p>Your cart is empty</p>";
-  document.querySelector('#bikeCart').innerHTML = updateCart;
+  DOM.innerHTML = updateHTML;
 }
+
+document.addEventListener("DOMContentLoaded", getDataCart);//fetched the data
