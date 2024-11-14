@@ -4,6 +4,7 @@ body{
   font-family: "Saira", serif;
   background-color: #1B1B1B;
   overflow-x: hidden;
+
 }
 
 
@@ -85,7 +86,8 @@ form {
 
 main {
   margin-top: 50px;
-  
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .advertising {
@@ -158,8 +160,10 @@ main {
 .modelContainer {
   opacity: 100%;
   background-color: #e3e3e3e7;
-  min-width: 200px;
-  min-height: 200px;
+  min-width: 10rem;
+  min-height: 10rem;
+  max-width: 40rem;
+  max-height: 40rem;
   margin: 20px;
   margin-bottom: 10px;
   border-style: solid;
