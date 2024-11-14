@@ -22,7 +22,7 @@ function displayTopModels(data) {
   let updateHTML = ``;//initializing DOM
 
       //sorting the data for the most expensive bike
-      const sortedInfo = data.sort((a, b) => {
+        const sortedInfo = data.sort((a, b) => {
         const priceA = parseInt(a.price);//getting only numbers from data
         const priceB = parseInt(b.price);
         return priceB - priceA;//sort in descending

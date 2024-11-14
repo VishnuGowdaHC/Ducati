@@ -66,3 +66,4 @@ async function displayCartItems(data){
 
 
 document.addEventListener("DOMContentLoaded", getDataCart);//fetched the data
+
