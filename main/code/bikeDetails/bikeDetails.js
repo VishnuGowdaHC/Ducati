@@ -53,6 +53,7 @@ async function displayModelDetails(jsonData, bikeName){
           <span class="priceValue">${selectedBike.price} INR</span>
         </div>
       </div>
+      <div id="popup" class="pop hidden">Item added to cart!</div>
       <div class="btnCont"><button class="AddToCart" onclick="displayCart('${selectedBike.product}');">ADD TO CART</button></div>
     </section>
     `;
@@ -73,8 +74,28 @@ async function displayBike() {
   }
 }
 
+function showPopup() {
+  const button = document.querySelector(".AddToCart");
+  const popup = document.getElementById("popup");
+  popup.classList.add("show");
+  popup.classList.remove("hidden");
+
+  const rect = button.getBoundingClientRect();
+
+  // Position the popup below the button
+  popup.style.top = `${rect.bottom + window.scrollY + 5}px`; 
+  popup.style.left = `${rect.left + window.scrollX}px`;
+
+  setTimeout(() => {
+    popup.classList.remove("show");
+    popup.classList.add("hidden");
+  }, 3000);
+}
+
+document.addEventListener('click', showPopup)
+
 function displayCart(bikename){
-window.alert('Added To Cart')
+
   if(bikename){
     totalBike.push(bikename);
     localStorage.setItem('cartItems', JSON.stringify(totalBike));

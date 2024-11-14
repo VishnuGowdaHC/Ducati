@@ -15,7 +15,7 @@ async function getDataCart() {
   }
 }
 function remove(bikeName) {
-  window.alert('Removed');
+  
   console.log("Removing bike:", bikeName);
   totalBike = totalBike.filter(bike => bike !== bikeName); 
   localStorage.setItem('cartItems', JSON.stringify(totalBike)); 
