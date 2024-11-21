@@ -58,6 +58,7 @@ function selectBike(selectedBike)
   let bikeHTML = document.querySelector('.selectedModel');
   const BikeModel = DATA;
 
+  //Filtering the selected model details
   let filteredBike = BikeModel.filter((bike) => bike.model === selectedBike);
   console.log(filteredBike);
   filteredBike.forEach((Bike) => {
@@ -75,6 +76,12 @@ function selectBike(selectedBike)
  bikeHTML.innerHTML = updateBike;
 
 }
+
+function scrollToSection(sectionId) {
+  const section = document.getElementById(sectionId);
+  section.scrollIntoView({ behavior: 'smooth' });
+}
+
 
 
 document.addEventListener("DOMContentLoaded", getData);//fetched the data

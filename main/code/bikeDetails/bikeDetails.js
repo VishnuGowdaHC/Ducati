@@ -92,7 +92,7 @@ function showPopup() {
   }, 3000);
 }
 
-document.addEventListener('click', showPopup)
+document.addEventListener('click', showPopup);
 
 function displayCart(bikename){
 

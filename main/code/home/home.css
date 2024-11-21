@@ -4,7 +4,7 @@ body{
   font-family: "Saira", serif;
   background-color: #1B1B1B;
   overflow-x: hidden;
-
+  margin: 0;
 }
 
 
@@ -177,6 +177,10 @@ main {
   box-shadow: 0 1px 10px 5px rgba(0,0,0,0.5);
 }
 
+.modelContainer:hover{
+  scale: 1.01;
+}
+
 
 
 .modelContainer img {
@@ -259,6 +263,7 @@ main {
   padding: 0;
 }
 .readMore {
+  cursor: pointer;
   border: none;
   font-family: "Saira", serif;
   text-align: center;
@@ -329,3 +334,43 @@ main {
   color: #CECECE;
   margin-bottom: 50px;
 }
+
+.nav-content{
+  cursor: pointer;
+  color: white;
+  transition: color 0.2s ease;
+}
+
+.nav-content:hover { 
+  color: #F5003B;
+}
+
+.nav-content:active{
+  opacity: 70%;
+}
+
+.footer{
+  background-color: #080808;
+  height: 10%;
+  bottom: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 30px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #282727;
+  
+}
+
+span {
+  color: #575656;
+}
+
+.contactus{
+  font-size: 2rem;
+  font-weight: 500;
+}
+

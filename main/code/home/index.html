@@ -17,9 +17,9 @@
     
     <ul class="part-1">
       <a href="./index.html"><img src="../../img/ducati_id.png" alt="Ducati" id="logo"></a>
-      <li><span style="color: #F5003B;">Models</span></li>
-      <li>News</li>
-      <li>Contact us</li>
+      <li class="nav-content" onclick="scrollToSection('section1')">Models</li>
+      <li class="nav-content" onclick="scrollToSection('section2')">News</li>
+      <li class="nav-content" onclick="scrollToSection('section3')">Contact us</li>
     </ul>
 
     <ul class="part-2">
@@ -54,7 +54,7 @@
       <!-- upto here -->
     </section>
 
-    <p class="textModels">Models</p>
+    <p id="section1" class="textModels">Models</p>
     <br>
     
     <section class="allModels selectedModel">
@@ -89,19 +89,25 @@
    
   </main>
 
-  <footer id="footer"></footer>
+  <footer id="section3" class="footer">
+    <span class="contactus">Contact Us</span>
+    <span class="phno">Ph no : +91 9108809379</span>
+    <span class="email">Email : xyz2005@gmail.com</span>
+  </footer>
 
-<div id="blurbox">
-  <div class="blur1"></div>
-  <div class="blur2"></div>
-  <div class="blur3"></div>
-  <div class="blur4"></div>
-  <div class="blur5"></div>
-  <div class="blur6"></div>
-</div>
+  <div id="blurbox">
+    <div class="blur1"></div>
+    <div class="blur2"></div>
+    <div class="blur3"></div>
+    <div class="blur4"></div>
+    <div class="blur5"></div>
+    <div class="blur6"></div>
+  </div>
+    
+  <script src="./topModels.js"></script>
+  <script src="../bikeDetails/bikeDetails.js"></script>
+  <script src="../cart/cart.js"></script>
+
   
-<script src="./topModels.js"></script>
-<script src="../bikeDetails/bikeDetails.js"></script>
-<script src="../cart/cart.js"></script>
 </body>
 </html>
